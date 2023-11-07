@@ -1,0 +1,430 @@
+
+/*----------------------------CSS NAVBAR --------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px #f5f4f4;
+}
+
+
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.topnav a:hover {
+    background-color: #d06f1d;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav a.active {
+    text-align: center;
+    background-color: #d06f1d;
+    color: white;
+    padding: 0px;
+}
+/*--------------------END CSS NAVBAR ------------------------------*/
+/*--------------------Titre-------------------------------------*/
+.titre h1{
+    border: solid #d06f1d;
+    padding: 30px;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 40px;
+}
+/*--------------------End-Titre-------------------------------------*/
+/*--------------------CSS_CAROUSSEL-----------------------------*/
+.carousel {
+    background: #d06f1d;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #5c4848;
+}
+.slider{
+    margin: 100px auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*--------------------END CSS_CAROUSSEL-----------------------------*/
+/*--------------------Sommaire-----------------------------*/
+.Sommaire{
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+.tablink {
+    background-color: #3f3f3f;
+    color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+    box-shadow: 1px 1px 5px #2a2a2a;
+}
+
+.tablink:hover {
+    background-color: #575757;
+}
+
+.tabcontent {
+    color: #0b0b0b;
+    display: none;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+#Spécificationtechnique {background: linear-gradient(to right, #d06f1d,#d06f1d,#2a2a2a);}
+#Notice {background: linear-gradient(to right, #d06f1d,#d06f1d,#2a2a2a);}
+#Video {background: linear-gradient(to right, #d06f1d,#d06f1d,#2a2a2a);}
+#PDF {background: linear-gradient(to right, #d06f1d,#d06f1d,#2a2a2a);}
+
+.Sommaire h3{
+    font-size: 35px;
+}
+.Sommaire p{
+    font-size: 15px;
+    line-height:20px
+}
+.trois p{
+    font-size: 20px;
+}
+.reso{
+    padding-left: 20px;
+    margin-left: 30px;
+}
+.neuf{
+    color: #911a05;
+    font-size: 25px;
+    font-weight: bold
+}
+/*----------------Button-----------------*/
+
+.button {
+    border-radius: 4px;
+    background-color: #3f3f3f;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 50px;    
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/*----------------Button-----------------*/
+
+/*--------------------END Sommaire-----------------------------*/
+/*---------------------NOTICE----------------------------*/
+.titrenotice{
+    background-color: #c9c9c9;
+    margin-top:500px;
+    padding: 6px;
+    padding-bottom: 2px;
+    border-radius: 20px 20px 0px 0px; 
+}
+.titrenotice h4{
+    padding: 3px;
+    margin: 0;
+}
+/*---------------------END NOTICE------------------------*/
+/*----------------------numeros-----------------------------*/
+.numero{
+    color:#ffffff;
+    background:#d06f1d;
+    margin-bottom: 100px;
+    padding: 4px;
+    padding-top: 6px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px #606060;
+}
+.numero p{
+    color: #2a2a2a;
+    font-size: 23px;
+}
+.pagination{
+    justify-content:center
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ce8649;
+    text-decoration: none;
+    color: aliceblue;
+}
+/*--------------------END numeros-----------------------------*/
+/*----------------------etapes --------------------------------*/
+.container{
+    margin-bottom: 150px;
+}
+.mymedia1{
+    color:#ffffff;
+    background:  #3f3f3f;
+    border: 3px solid #d06f1d; 
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #464646;
+}
+.mymedia2{
+    color:#ffffff;
+    background:  #d06f1d;
+    border: 3px solid #3f3f3f; 
+    margin: 3px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #bc4519;
+}
+
+.mymediabody{
+    margin:4px 6px 0px 0px;
+    padding:4px;
+
+}
+.myimage{
+    width: 150px;
+    margin:4px 0px 4px 4px;
+    border: 4px solid #ffffff;
+    border-radius: 10px 0px 0 10px;
+}
+.myimage2{
+    width: 150px;
+    margin:4px 0px 4px 4px;
+    border: hidden ;
+}
+.myimage4{
+    width: 150px;
+    margin:4px 0px 4px 4px;
+    border: hidden;
+}
+.myimageok{
+    width: 150px;
+    margin:4px 0px 4px 4px;
+    border: hidden; 
+
+
+}
+/*---------------------end etapes -----------------------------*/
+/*---------------------separation -----------------------------*/
+.separation{
+    margin-bottom: 150px ;
+    background-color: #d06f1d;
+}
+.separation p{
+    visibility: hidden
+}
+
+/*---------------------end separation --------------------------*/
+/*------------video clip ----------------------------------------*/
+
+#myVideo {
+    position:relative;
+    width: 80%;
+    box-shadow: 1px 1px 8px #2a2a2a;
+
+}
+
+.content {
+    position: relative<<;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/*------------end video clip ----------------------------------------*/
+.ligne 
+{
+    background: transparent;
+    border-color: #000;
+    border-width: 0 0 1px;
+    border-style: solid;
+    margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+/*-------------------------pdf----------------------------------------*/
+.download{
+    margin: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 10px;
+    background-color: #3f3f3f;
+    border-radius: 0px 0px 30px 0px;
+    box-shadow: 2px 2px 10px #222222;
+}
+.download p{
+    color: white;
+    font-style: italic;
+}
+.download button{
+    border-radius: 0px 0px 10px 0px;
+    box-shadow: 1px 1px 8px #2a2a2a;
+}
+/*------------------------end pdf----------------------------------------*/
+/*--------------------------------scrollbar----------------------------------*/
+#scrollPath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255,255,255,0.5)
+        filter : brightness(100%)
+}
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background: linear-gradient(to top, #ff7f22,#3e3e3e);
+}
+
+#progressbar:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #ff7f22,#3e3e3e);
+    filter: blur(20px);
+
+}       
+/*--------------------------------end scrollbar------------------------------*/
+/*--------------------------------prefooter----------------------------------*/
+.footer{
+    justify-items: center;
+}
+.prefooter {
+    margin: 0px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #4e4e4e;
+    box-shadow: 1px 1px 5px #2a2a2a;
+
+}
+.prefooter h5{
+    color: #d06f1d;
+    font-size: 30px;
+    margin-bottom: 40px
+}
+.prefooter h6{
+    color: white;
+    font-size: 19px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+#secr{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 12px;
+    padding:10px auto;
+}
+.prefooter p{
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#ligne 
+
+{
+    background:transparent;
+    border-color:#fff;
+    border-width: 0 0 1px;
+    border-style: solid;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 50px;
+}
+#perso{
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 5px;
+}
+/*--------------------------------end prefooter----------------------------------*/
+.map{
+    margin: 0px;
+    padding: 0px;
+}
+/*--------------------------------footer----------------------------------*/
+.footer{
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #242424;
+}
+.footer h5{
+    font-size: 20px;
+}
+.footer p{
+    margin: 0;
+    color: #ffffff;
+    word-spacing: 6px;
+}
+.foot{
+    color: #d06f1d
+}
+/*--------------------------------end footer------------------------------*/
